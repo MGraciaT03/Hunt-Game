@@ -96,7 +96,7 @@ public class PantallaDerrotaIlegal implements Pantalla {
 		g.setColor(colorLetraAviso);
 		g.drawString(advertencia, panelDeJuego.getWidth() / 2 - 380, (panelDeJuego.getHeight()/2) + 90);
 		g.setFont(fuenteFinal);
-		g.drawString("Click Derecho: Volver al inicio ", panelDeJuego.getWidth() / 2 - 150, (panelDeJuego.getHeight()/2) + 180);
+		g.drawString("Click Izquierdo: Volver al inicio ", panelDeJuego.getWidth() / 2 - 150, (panelDeJuego.getHeight()/2) + 180);
 	
 	}
 //Ejecuta los componentes del frame
