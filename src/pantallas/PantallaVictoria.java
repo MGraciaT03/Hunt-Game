@@ -83,7 +83,7 @@ public class PantallaVictoria implements Pantalla {
 		g.drawString("PUNTUACIÓN: " + puntos, panelDeJuego.getWidth() / 2 - 130, (panelDeJuego.getHeight() / 2) + 30);
 		g.drawString("Tu tiempo: " + formato.format(tiempo), panelDeJuego.getWidth() / 2 - 120,
 				(panelDeJuego.getHeight() / 2) + 70);
-		g.drawString("Click Derecho: Volver al inicio", panelDeJuego.getWidth() / 2 - 180, (panelDeJuego.getHeight() / 2) + 120);
+		g.drawString("Click Izquierdo: Volver al inicio", panelDeJuego.getWidth() / 2 - 180, (panelDeJuego.getHeight() / 2) + 120);
 	}
 
 	// Ejecuta los componentes del frame
