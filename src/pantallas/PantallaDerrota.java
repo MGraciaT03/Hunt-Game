@@ -67,7 +67,7 @@ public class PantallaDerrota implements Pantalla {
 		g.setColor(colorLetraFinal);
 		g.drawString("¡DERROTA! HAS PERDIDO", panelDeJuego.getWidth() / 2 - 210, (panelDeJuego.getHeight()/2)-30);
 		g.drawString("PUNTUACIÓN: " + puntos, panelDeJuego.getWidth() / 2 - 130, (panelDeJuego.getHeight()/2)+30);
-		g.drawString("Click Izquierdo: Volver al inicio  ", panelDeJuego.getWidth() / 2 - 180, (panelDeJuego.getHeight()/2) + 90);
+		g.drawString("Click Derecho: Volver al inicio  ", panelDeJuego.getWidth() / 2 - 180, (panelDeJuego.getHeight()/2) + 90);
 	
 	}
 //Ejecuta los componentes del frame

@@ -75,7 +75,7 @@ public class PantallaDerrotaIlegal implements Pantalla {
 			 advertencia = "¡NO CAZES CIGÜEÑAS, ABATIR ESPECIES PROTEGIDAS ES UN DELITO!";
 			break;
 			case 6:
-			advertencia  = "¡NO  CAZES AVES RAPACES, ES MUCHO PEOR QUE ABATIR CIGÜEÑAS CONDENANDOTE A PENA DE CARCEÑ!";
+			advertencia  = "¡NO  CAZES AVES RAPACES, ES MUCHO PEOR QUE CAZAR CIGÜEÑAS!";
 			break;
 			case 10:
 			advertencia  = "¡NO CAZES LOBOS, ABATIR ESPECIES PROTEGIDAS ES UN DELITO!";
@@ -84,7 +84,7 @@ public class PantallaDerrotaIlegal implements Pantalla {
 			advertencia  = "¡¡NO CAZES OSOS, ABATIR ESPECIES PROTEGIDAS ES UN DELITO!";
 			break;
 			case 12:
-			advertencia = "¡¡NI SE TE OCURRA CAZAR A UN LINCE, ABATIR UN LINCE ES PENA DE CARCEL!!";
+			advertencia = "¡¡NI SE TE OCURRA MATAR A UN LINCE, ES PENA DE CARCEL!!";
 			break;
 		}
 		g.setFont(fuenteGrande);
@@ -96,7 +96,7 @@ public class PantallaDerrotaIlegal implements Pantalla {
 		g.setColor(colorLetraAviso);
 		g.drawString(advertencia, panelDeJuego.getWidth() / 2 - 380, (panelDeJuego.getHeight()/2) + 90);
 		g.setFont(fuenteFinal);
-		g.drawString("Click Izquierdo: Volver al inicio ", panelDeJuego.getWidth() / 2 - 150, (panelDeJuego.getHeight()/2) + 180);
+		g.drawString("Click Derecho: Volver al inicio ", panelDeJuego.getWidth() / 2 - 150, (panelDeJuego.getHeight()/2) + 180);
 	
 	}
 //Ejecuta los componentes del frame
